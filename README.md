@@ -15,4 +15,4 @@ MediLink is a simple and smart healthcare web platform for booking doctor appoin
   ## Author
 
 Created by **Fuad Ahammed**  
-📧 Email: support@medilink.com
+📧 Email: 221002078@student.green.edu.bd
