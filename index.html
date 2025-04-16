@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediLink - Inspired by Prescripto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MediLink</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dims.html">DIMS</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Removed hero-section as per user request -->
+
+  <!-- Main Wrapper for Categories, Slideshow and Appointment Booking -->
+  <div class="main-wrapper">
+    <div class="categories-slideshow-wrapper">
+      <!-- Categories Section -->
+      <section class="categories-section">
+        <h2>Categories</h2>
+        <ul>
+          <li>Cardiology</li>
+          <li>Dermatology</li>
+          <li>Neurology</li>
+          <li>Pediatrics</li>
+          <li>Orthopedics</li>
+          <li>General Surgery</li>
+          <li>Gynecology</li>
+          <li>ENT</li>
+          <li>Psychiatry</li>
+          <li>Endocrinology</li>
+        </ul>
+      </section>
+
+      <!-- Slideshow Section -->
+      <section class="slideshow-container">
+        <div class="slideshow-slide fade">
+          <img src="images/d.jpg" alt="Slide 1">
+        </div>
+        <div class="slideshow-slide fade">
+          <img src="images/d3.jpg" alt="Slide 2">
+        </div>
+        <div class="slideshow-slide fade">
+          <img src="images/d4.jpg" alt="Slide 3">
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </section>
+
+      <!-- Appointment Booking Section -->
+      <section class="appointment-booking">
+        <h2>Book an Appointment</h2>
+        <form id="appointmentForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="category">Category:</label>
+          <select id="category" name="category" required>
+            <option value="" disabled selected>Select a category</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Pediatrics">Pediatrics</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="General Surgery">General Surgery</option>
+            <option value="Gynecology">Gynecology</option>
+            <option value="ENT">ENT</option>
+            <option value="Psychiatry">Psychiatry</option>
+            <option value="Endocrinology">Endocrinology</option>
+          </select>
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+
+          <button type="submit">Book Appointment</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <!-- Medicine Products Section -->
+  <section class="medicine-products">
+    <h2>Available Medicines</h2>
+    <div class="products-grid">
+      <div class="product-item">
+        <img src="images/paracetamol.jpg" alt="Paracetamol" />
+        <h3>Paracetamol</h3>
+        <p>Price: BDT 5.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Ibuprofen.jpg" alt="Ibuprofen" />
+        <h3>Ibuprofen</h3>
+        <p>Price: BDT 7.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Amoxicillin.png" alt="Amoxicillin" />
+        <h3>Amoxicillin</h3>
+        <p>Price: BDT 12.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Metformin.jpeg" alt="Metformin" />
+        <h3>Metformin</h3>
+        <p>Price: BDT 15.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Lisinopril.jpeg" alt="Lisinopril" />
+        <h3>Lisinopril</h3>
+        <p>Price: BDT 10.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Amlodipine.jpeg" alt="Amlodipine" />
+        <h3>Amlodipine</h3>
+        <p>Price: BDT 8.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Omeprazole.jpg" alt="Omeprazole" />
+        <h3>Omeprazole</h3>
+        <p>Price: BDT 9.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Simvastatin" alt="Simvastatin" />
+        <h3>Simvastatin</h3>
+        <p>Price: BDT 11.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Azithromycin.jpg" alt="Azithromycin" />
+        <h3>Azithromycin</h3>
+        <p>Price: BDT 14.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Hydrochlorothiazide.jpg" alt="Hydrochlorothiazide" />
+        <h3>Hydrochlorothiazide</h3>
+        <p>Price: BDT 6.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Albuterol.jpg" alt="Albuterol" />
+        <h3>Albuterol</h3>
+        <p>Price: BDT 13.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Gabapentin.jpg" alt="Gabapentin" />
+        <h3>Gabapentin</h3>
+        <p>Price: BDT 16.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Sertraline.jpg" alt="Sertraline" />
+        <h3>Sertraline</h3>
+        <p>Price: BDT 18.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Furosemide.jpg" alt="Furosemide" />
+        <h3>Furosemide</h3>
+        <p>Price: BDT 7.50</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Prednisone.jpg" alt="Prednisone" />
+        <h3>Prednisone</h3>
+        <p>Price: BDT 9.50</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Warfarin.png" alt="Warfarin" />
+        <h3>Warfarin</h3>
+        <p>Price: BDT 20.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Citalopram.jpg" alt="Citalopram" />
+        <h3>Citalopram</h3>
+        <p>Price: BDT 17.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Clopidogrel.jpeg" alt="Clopidogrel" />
+        <h3>Clopidogrel</h3>
+        <p>Price: BDT 19.00</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Montelukast.jpg" alt="Montelukast" />
+        <h3>Montelukast</h3>
+        <p>Price: BDT 8.50</p>
+        <button>Buy</button>
+      </div>
+      <div class="product-item">
+        <img src="images/Fluoxetine.jpg" alt="Fluoxetine" />
+        <h3>Fluoxetine</h3>
+        <p>Price: BDT 15.50</p>
+        <button>Buy</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 MediLink. All rights reserved.
+  </footer>
+</body>
+</html>
